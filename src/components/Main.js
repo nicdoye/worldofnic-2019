@@ -135,8 +135,6 @@ class Main extends React.Component {
         <p>In 2003 <a href="http://savannah.nongnu.org/projects/axiom/">Axiom</a> became available under an open source licence 
           (and has even forked) but I still haven't got around to adding anything to it.</p>
 
-
-
           <ul className="icons">
             <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
