@@ -21,24 +21,15 @@ class Main extends React.Component {
           programmer in too many languages. Operations Engineer at <a href='https://www.alfresco.com/'>Alfresco</a>.
         </p>
     
-          <p>Dad
-            <i class='fal fa-male'></i><br/> 
-            Husband 
-            <i class="fal fa-heart"></i><br/> 
-            Slow road cyclist
-            <i class='fal fa-bicycle'></i><br/> 
-            Terrible guitarist
-            <i class="fal fa-guitar"></i><br/> 
-            Geek
-            <i class="fal fa-code-branch"></i><br/> 
-            Record collector
-            <i class="fal fa-compact-disc"></i><br/> 
-            Audiophile
-            <i class="fal fa-volume"></i><br/> 
-            "Mad Cat Lady"
-            <i class='fal fa-cat'></i><br/> 
-            Catholic convert
-            <i class="fal fa-cross"></i></p>
+          <p><i class='fal fa-male'></i> Dad <br/>  
+            <i class="fal fa-heart"></i> Husband<br/>
+            <i class='fal fa-bicycle'></i> Slow road cyclist<br/> 
+            <i class="fal fa-guitar"></i> Terrible guitarist<br/> 
+            <i class="fal fa-code-branch"></i> Geek<br/> 
+            <i class="fal fa-compact-disc"></i> Record collector<br/> 
+            <i class="fal fa-volume"></i> Audiophile<br/> 
+            <i class='fal fa-cat'></i> "Mad Cat Lady"<br/> 
+            <i class="fal fa-cross"></i> Catholic convert</p>
           {close}			
 				</article>
 

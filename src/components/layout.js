@@ -45,6 +45,7 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
             ]}
           >
+            <script defer src="https://pro.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-4Gm0M5DjJ0zGaEtLu0ztNIoHWiuJ5rKiaVlpZKeNqXAW49eIIa2ymxb3C4c3uEXR" crossorigin="anonymous"></script>
             <html lang="en" />
           </Helmet>
           {content}
