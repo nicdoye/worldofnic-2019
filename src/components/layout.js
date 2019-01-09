@@ -4,18 +4,9 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 //import fontawesome from '@fortawesome/fontawesome-pro'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { far } from '@fortawesome/pro-regular-svg-icons'
-import { fal } from '@fortawesome/pro-light-svg-icons'
-import { fas } from '@fortawesome/pro-solid-svg-icons'
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { IconLookup } from '@fortawesome/fontawesome-svg-core'
 
 import '../assets/scss/main.scss'
 
-library.add(far, fal, fas)
 
 const Layout = ({ children, location }) => {
 
