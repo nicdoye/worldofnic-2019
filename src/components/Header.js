@@ -1,10 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Header = (props) => (
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/pro-solid-svg-icons'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+library.add(fas)
+
+const Header = (props) => ( 
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div class="logo">
-            <i class="fas fa-cubes fa-2x"></i>
+            <FontAwesomeIcon icon={['fas', 'cubes']} size='2x'/>
         </div>
         <div class="content">
             <div class="inner">

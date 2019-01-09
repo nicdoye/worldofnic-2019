@@ -2,8 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+//import fontawesome from '@fortawesome/fontawesome-pro'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { far } from '@fortawesome/pro-regular-svg-icons'
+import { fal } from '@fortawesome/pro-light-svg-icons'
+import { fas } from '@fortawesome/pro-solid-svg-icons'
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { IconLookup } from '@fortawesome/fontawesome-svg-core'
 
 import '../assets/scss/main.scss'
+
+library.add(far, fal, fas)
 
 const Layout = ({ children, location }) => {
 
@@ -45,7 +57,8 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
             ]}
           >
-            <script defer src="https://pro.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-4Gm0M5DjJ0zGaEtLu0ztNIoHWiuJ5rKiaVlpZKeNqXAW49eIIa2ymxb3C4c3uEXR" crossorigin="anonymous"></script>
+            
+
             <html lang="en" />
           </Helmet>
           {content}
@@ -60,3 +73,5 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+// // <script defer src="/js/all.js"></script>
