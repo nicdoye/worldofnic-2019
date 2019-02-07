@@ -46,8 +46,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic02} alt="" /></span>
           <h3>Open Source</h3>
 
-          <h3>1999-2006</h3>
-          <p>I used to do lots of Open Source stuff between 1999 and 2002. 
+          <p>I used to do lots of Open Source stuff in the late 1990s/early 2000s. 
             You can find my code in the released versions 
             of <a href="http://www.pureftpd.org/project/pure-ftpd">Pure-FTPd</a>, <a href="http://www.gnupg.org/">Gnu Privacy Guard</a>, 
             official <a href="https://exim.org/">Exim</a> RPM spec, and more. 
@@ -55,12 +54,11 @@ class Main extends React.Component {
             for <a href="http://cyrusimap.web.cmu.edu/mediawiki/index.php/Cyrus_SASL">Cyrus-SASL</a>, <a href="http://modauthmysql.sourceforge.net/">mod_auth_mysql</a> amongst others.
             I also published Perl, JavaScript and other custom RPMs.</p>
 
-          <h3>Present</h3>
-
-          <p>I am again allowed to publish open source software and you can see them 
-            on <a href="https://github.com/nicdoye">GitHub</a> as well as 
-            many <a href="https://gist.github.com/nicdoye">gists</a>.
-          I've often thought of writing a DNS Server, but it's never happened. 
+          <p>In 2016, I went back to my roots to work for an open source company. Check out
+            my <a href="https://github.com/nicdoye">GitHub</a> and 
+            my <a href="https://gist.github.com/nicdoye">gists</a>.</p>
+          
+          <p>I've often thought of writing a DNS Server, but it's never happened. 
           A sketch of the design <a href="https://nicdoye.github.io/andns/">is available</a>.</p>
 
           <h3>About this site</h3>
