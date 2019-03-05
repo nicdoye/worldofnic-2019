@@ -25,7 +25,10 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
         <h2 className="major">Intro</h2>
         <span className="image main"><img src={pic01} alt="" /></span>
-        <p>Accidental UNIX/Linux Sysadmin <FontAwesomeIcon icon={['fab', 'linux']}/> and
+        <h3>Nicolas (Nic) Doye</h3>
+        <p>
+          Cloud Native Engineer /
+          Accidental Linux Sysadmin <FontAwesomeIcon icon={['fab', 'linux']}/> and
           programmer in too many languages. Operations Engineer at <a href='https://www.alfresco.com/'>Alfresco</a>.
         </p>
     

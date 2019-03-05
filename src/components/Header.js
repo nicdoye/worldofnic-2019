@@ -15,8 +15,8 @@ const Header = (props) => (
         </div>
         <div class="content">
             <div class="inner">
-                <h1>world of nic</h1>
-                <p>Dad, husband, cyclist, cloud native engineer.</p>
+                <h1>Nic Doye</h1>
+                <p>Person of UNIX descent</p>
             </div>
         </div>
         <nav>
