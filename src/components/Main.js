@@ -107,7 +107,7 @@ class Main extends React.Component {
           available under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>.
           Generated using <a href="https://github.com/codebushi/gatsby-starter-dimension">gatsby-starter-dimension</a> under the 
           <a href="https://github.com/codebushi/gatsby-starter-dimension/blob/master/LICENSE">MIT license</a>.
-          Icons are from <a href="https://fontawesome.com">Font Awesome Pro <FontAwesomeIcon icon={['fab', 'font-awesome-alt']}/></a>.</p>.
+          Icons are from <a href="https://fontawesome.com">Font Awesome Pro <FontAwesomeIcon icon={['fab', 'font-awesome-alt']}/></a>.</p>
             {close}
         </article>
 
