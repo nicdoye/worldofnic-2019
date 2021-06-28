@@ -29,7 +29,8 @@ class Main extends React.Component {
         <p>
           Cloud Native Engineer /
           Accidental Linux Sysadmin <FontAwesomeIcon icon={['fab', 'linux']}/> and
-          programmer in too many languages. Operations Engineer at <a href='https://www.alfresco.com/'>Alfresco</a>.
+          programmer in too many languages. Senior DevOps Engineer at 
+          <a href='https://www.hyland.com/'>Hyland</a> <a href='https://www.alfresco.com/'>Alfresco</a>.
         </p>
     
           <p><FontAwesomeIcon icon={['fal', 'male']}/> Dad <br/>  
